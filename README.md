@@ -79,3 +79,8 @@ A Grafana dashboard template is provided in the grafana_dashboard.json file. You
 3. Click on "Import".
 4. Upload the grafana_dashboard.json file.
 5. Follow the prompts to complete the import.
+
+### Dashboard Preview
+Here’s a preview of the Grafana dashboard:
+
+![Grafana Dashboard Preview](grafana_dashboard_preview.png)
