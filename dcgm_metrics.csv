@@ -1,0 +1,14 @@
+# Format,,
+# If line starts with a '#' it is considered a comment,,
+# DCGM FIELD, Prometheus metric type, help message
+
+# Memory usage,,
+DCGM_FI_DEV_FB_FREE, gauge, Framebuffer memory free (in MiB).
+DCGM_FI_DEV_FB_USED, gauge, Framebuffer memory used (in MiB).
+
+# GPU Utilization,,
+DCGM_FI_DEV_GPU_UTIL, gauge, GPU utilization (in %).
+DCGM_FI_DEV_MEM_COPY_UTIL, gauge, Memory utilization (in %).
+
+# Power Usage,,
+DCGM_FI_DEV_POWER_USAGE, gauge, Power draw (in W).
