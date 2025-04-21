@@ -33,7 +33,6 @@ ${NODE_EXPORTER_DIR}/node_exporter \
     --collector.disable-defaults \
     --collector.cpu \
     --collector.meminfo \
-    --collector.diskstats \
     --collector.netdev \
     --collector.infiniband \
     --collector.netstat &

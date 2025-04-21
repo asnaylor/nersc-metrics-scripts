@@ -28,7 +28,6 @@ podman-hpc run \
 
 PROM_PID=$!
 echo "$PROM_PID"
-echo "Visit Prometheus at https://jupyter.nersc.gov${JUPYTERHUB_SERVICE_PREFIX}proxy/9090/"
 
 #Deploy Grafana (see localhost:3000)
 mkdir -p $SCRATCH/grafana_metrics_data
@@ -40,5 +39,14 @@ podman-hpc run \
         grafana/grafana-oss:11.6.0 &
 GF_PID_PID=$!
 echo "$GF_PID_PID"
+
+sleep 10
+
+echo "------------------"
+echo ""
+echo "Visit Prometheus at https://jupyter.nersc.gov${JUPYTERHUB_SERVICE_PREFIX}proxy/9090/"
 echo "Visit Grafana at https://jupyter.nersc.gov${JUPYTERHUB_SERVICE_PREFIX}proxy/3000/login"
+echo ""
+echo "------------------"
+
 wait
