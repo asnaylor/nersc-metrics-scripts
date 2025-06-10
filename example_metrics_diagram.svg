@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="950" height="510" viewBox="0 0 950 510">
+  <path fill="#FFF" stroke="#000" d="M0 0h950v600H0z"/>
+  <text x="10" y="28" font-family="Monospace" font-size="24">Perlmutter</text>
+  <path fill="#C0DF85" stroke="#000" d="M15 45h370v300H15z"/>
+  <text x="30" y="70" font-family="Monospace" font-size="20">Login nodes</text>
+  <path fill="#F0FFD6" stroke="#000" d="M45 85h310v230H45z"/>
+  <text x="60" y="108" font-family="Monospace" font-size="17">login01</text>
+  <path fill="#FFF" stroke="#000" d="M140 130h120v38H140z"/>
+  <text x="200" y="154" font-family="Monospace" font-size="15" text-anchor="middle">grafana</text>
+  <path fill="#FFF" stroke="#000" d="M140 180h120v38H140z"/>
+  <text x="200" y="204" font-family="Monospace" font-size="15" text-anchor="middle">prometheus DB</text>
+  <path fill="#FFF" stroke="#000" d="M110 230h180v38H110z"/>
+  <text x="200" y="254" font-family="Monospace" font-size="15" text-anchor="middle">prometheus http sd</text>
+  <path stroke="#000" stroke-width="2" d="M200 168v12m0 38v12m0-100V0"/>
+  <text x="210" y="25" font-family="Monospace" font-size="16">JupyterHub</text>
+  <path fill="#C0DF85" stroke="#000" d="M410 45h500v450H410z"/>
+  <text x="425" y="70" font-family="Monospace" font-size="20">Compute nodes</text>
+  <path fill="#F0FFD6" stroke="#000" d="M430 90h460v180H430z"/>
+  <text x="445" y="115" font-family="Monospace" font-size="17">CPU Nodes</text>
+  <path fill="#F9FBFF" stroke="#000" d="M460 130h400v120H460z"/>
+  <text x="475" y="150" font-family="Monospace" font-size="15">nid0001</text>
+  <path fill="#B0D6FF" stroke="#000" d="M495 157h120v26H495z"/>
+  <text x="555" y="175" font-family="Monospace" font-size="13" text-anchor="middle">application</text>
+  <path fill="#E0E0E0" stroke="#000" d="M495 190h140v26H495z"/>
+  <text x="565" y="207" font-family="Monospace" font-size="13" text-anchor="middle">node_exporter</text>
+  <path fill="#F0FFD6" stroke="#000" d="M430 290h460v190H430z"/>
+  <text x="445" y="315" font-family="Monospace" font-size="17">GPU Nodes</text>
+  <path fill="#F9FFFB" stroke="#000" d="M460 330h400v140H460z"/>
+  <text x="475" y="350" font-family="Monospace" font-size="15">nid0002</text>
+  <path fill="#B0D6FF" stroke="#000" d="M495 365h120v26H495z"/>
+  <text x="555" y="384" font-family="Monospace" font-size="13" text-anchor="middle">application</text>
+  <path fill="#E0E0E0" stroke="#000" d="M495 400h140v26H495z"/>
+  <text x="565" y="419" font-family="Monospace" font-size="13" text-anchor="middle">dcgm collector</text>
+  <path fill="#E0E0E0" stroke="#000" d="M495 435h140v26H495z"/>
+  <text x="565" y="454" font-family="Monospace" font-size="13" text-anchor="middle">custom exporter</text>
+  <path stroke="#000" stroke-width="2" d="M260 199h160m0 0v249m0-249h75m-75 220h75m-75 29h75"/>
+</svg>

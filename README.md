@@ -17,6 +17,13 @@ A comprehensive solution for deploying Prometheus, Grafana, node_exporter, and D
 
 This toolkit provides a set of scripts to easily deploy a complete metrics collection and visualization stack on NERSC systems. It's designed to work within the NERSC JupyterHub environment and supports dynamic registration of monitoring targets through HTTP service discovery.
 
+### Architecture Example
+
+<div align="center">
+  <img src="example_metrics_diagrams.svg" alt="Multi-node monitoring example with NERSC Metrics" width="800">
+  <p><em>Figure 1: Example deployment showing how the NERSC Metrics scripts can be used to monitor multiple compute nodes, with each node running node_exporter and DCGM collectors that register with the central Prometheus instance</em></p>
+</div>
+
 ## Features
 
 - **Prometheus** for metrics collection and storage
