@@ -20,7 +20,7 @@ This toolkit provides a set of scripts to easily deploy a complete metrics colle
 ### Architecture Example
 
 <div align="center">
-  <img src="example_metrics_diagrams.svg" alt="Multi-node monitoring example with NERSC Metrics" width="800">
+  <img src="example_metrics_diagram.svg" alt="Multi-node monitoring example with NERSC Metrics" width="800">
   <p><em>Figure 1: Example deployment showing how the NERSC Metrics scripts can be used to monitor multiple compute nodes, with each node running node_exporter and DCGM collectors that register with the central Prometheus instance</em></p>
 </div>
 
